@@ -11,7 +11,7 @@ image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.J
 
 Is it possible to predict the success of a recipe based on its ingredients independently? The answer is no. Heston Blumenthal, the father of food pairing, needs at least 2 combined ingredients to make a special meal, however, it was possible to get good insights from the analysis.
 
-<p align="center"> <img src="https://github.com/nataliabernardo/nataliab_metis/blob/master/Project_2/images/srep00196-f2.jpg" width="60%"></p>
+<p align="center"> <img src="https://github.com/nataliabernardo/nataliab_metis/blob/master/Project_2/images/srep00196-f2" width="60%"></p>
 
 Project 2 was an opportunity for us to learn web scraping using BeautifulSoup and Selenium and Supervised Machine Learning techniques. My project was about predicting the success of a recipe based on the main ingredients and nutrition information. As a fan of the good food, I have always been curious on which elements make the dishes better. For this purpose, I chose to use a multivariable linear regression model on Epicurious.com recipes.
 
