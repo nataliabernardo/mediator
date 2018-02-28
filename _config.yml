@@ -32,7 +32,7 @@ paginate:	5
 
 #google_analytics: UA-XXXXX-X
 
-# social icons and sharing options
+social icons and sharing options
 #social:
 #  - icon:	twitter
 #    url:	https://twitter.com/dirkfabisch
@@ -49,7 +49,7 @@ paginate:	5
 #    share_link: "&amp;u="
 
   - icon:	github
-    url:	https://github.com/dirkfabisch
+    url:	https://github.com/nataliabernardo
     desc:	Fork me on github
     share_url:
     share_title:
