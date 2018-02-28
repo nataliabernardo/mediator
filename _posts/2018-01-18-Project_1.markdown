@@ -3,7 +3,7 @@ layout: post
 title:  "Analyzing NYC Subway and Demographic"
 date:   2018-01-18 14:34:25
 categories: data science pandas
-tags: featured
+tags: Metis Data Science
 image: /assets/article_images/2014-11-30-mediator_features/night-track.JPG
 image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.JPG
 ---
