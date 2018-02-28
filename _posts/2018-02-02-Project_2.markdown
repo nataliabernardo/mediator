@@ -26,12 +26,12 @@ I used BeautifulSoup for this task. Epicurious.com has an organized html source 
 
 For the target variable, I chose to measure the Success score by the rating combined with the percentage of people that said that would make that recipe again. 
 
-<p align="center"> <img src="/assets/images/Screen Shot 2018-02-26 at 9.06.42 PM.png" width="95%"></p>
+<p align="center"> <img src="/assets/images/Screen Shot 2018-02-26 at 9.06.42 PM.png" width="100%"></p>
 
 
 It seems more realistic than using purely ratings and has a better distribution.
 
- <p align="center"> <img src="/assets/images/Picture1.jpg" width="60%"></p>
+ <p align="center"> <img src="/assets/images/Picture1.jpg" width="100%"></p>
  
  
 
@@ -41,7 +41,7 @@ As features, 2 types of information were used:
 
 As the nutrition data is right skewed (as in the example below), I transformed them to log, so they had a better distribution.  
 
-<p align="center"> <img src="/assets/images/Picture2.jpg" width="65%"></p>
+<p align="center"> <img src="/assets/images/Picture2.jpg" width="90%"></p>
  
 For the ingredients, since there were many, I used the Recursive Feature Elimination (RFE) for choosing the 50 most important ingredients that explain the ratings. The RFE ranks the predictors based on their contribution to the model.
 
@@ -53,20 +53,20 @@ In whatever way, the linear regression model performed well and it was possible 
 
 When modelling  with all of my features my model came out with an r-squared of 0.94 and a mean squared error of 0.59, which was better than expected. In an attempt to reduce the mean squared error, I excluded the features whose p-value were higher than 0.05 (relationship between that feature and the rating is not statistically significant). The r-squared increased to 0.95, meaning my model could account for 95% variance in the score, and a mean squared error of 0.57! Below is the summary of the resulting OLS model.
 
-<p align="center"> <img src="/assets/images/Picture3.jpg" width="55%"></p>
+<p align="center"> <img src="/assets/images/Picture3.jpg" width="90%"></p>
 
 ### Results
 
 * People (at least the Epicurious.com users) prefer more caloric and salty meal
 It resulted that unhealthier, such as calories, components have a positive coefficient,meaning that they lead to higher ratings.
 
-<p align="center"> <img src="https://github.com/nataliabernardo/nataliab_metis/blob/master/Project_2/images/Screen%20Shot%202018-02-26%20at%209.55.59%20PM.png?raw=true" width="80%"></p>
+<p align="center"> <img src="https://github.com/nataliabernardo/nataliab_metis/blob/master/Project_2/images/Screen%20Shot%202018-02-26%20at%209.55.59%20PM.png?raw=true" width="100%"></p>
 
 * “Fancy” ingredients may increase (or decrease) the rating
 
 If you look closer to the ingredients that most impact the ratings, you come to the conclusion that they are mostly not main ingredients, but flavor additions to the recipes!
 
-<p align="center"> <img src="https://github.com/nataliabernardo/nataliab_metis/blob/master/Project_2/images/Screen%20Shot%202018-02-26%20at%208.46.43%20PM.png?raw=true" width="80%"></p>
+<p align="center"> <img src="https://github.com/nataliabernardo/nataliab_metis/blob/master/Project_2/images/Screen%20Shot%202018-02-26%20at%208.46.43%20PM.png?raw=true" width="100%"></p>
 
 These ingredients are usually the ones that people love or hate, for example, pinapple. Most people I know dislike pinapple in their meal, in fact it had an negative correlation with the success score.
 
