@@ -4,7 +4,7 @@ title:  "Predicting Students' Performance"
 date:   2018-02-21 14:34:25
 categories: data science supervised learning
 image: /assets/article_images/2014-11-30-mediator_features/night-track.JPG
-image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.JPG
+image2: /assets/images/pintxos.jpg-
 ---
 
 ## Project 3 - Can we predict a student's performance based on their lifestyle factor?
