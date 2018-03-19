@@ -9,6 +9,8 @@ image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.J
 
 ## Project 3 - Can we predict a student's performance based on their lifestyle factor?
 
+<IMG SRC="https://media.giphy.com/media/xT9DPFPfULYJHHrqN2/giphy.gif">
+
 ### Motivation
 
 As an Economist, I have seen many papers analyzing students' performance based on social indicators, but It was the first kind of project that also included individual data regarding their lifestyle such as alcohol consumption and relationship status. The data set was .....
