@@ -12,7 +12,7 @@ email: bernardo.natalia@outlook.com
 #blog logo
 logo: "/assets/images/logo.jpg"
 logo1: "/assets/images/three-bars.png"
-float_logo: false # true, false (default)
+float_logo: true # true, false (default)
 
 # blog cover
 cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
