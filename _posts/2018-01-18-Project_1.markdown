@@ -10,7 +10,7 @@ image2: /assets/article_images/project_1/turnstile.jpg
 
 # Project 1 - Analyzing NYC Subway and Demographic 
 
-WomenTechWomenYes (WTWY) solicited our engagement to use MTA subway data to help them optimize the placement of their street teams, such that they can gather the most signatures, ideally from those who will attend the gala and contribute to our cause. 
+In a fictionary scenario, a non-profit organization WomenTechWomenYes (WTWY) solicited our engagement to use MTA subway data to help them optimize the placement of their street teams, such that they can gather the most signatures, ideally from those who will attend the gala and contribute to our cause. 
 
 In this regard, our group assumed that the higher traffic of pedestrians would mean more signinature, but this analysis would be more precise if leveraged by the proportion of individuals more interested in the cause of WTWY. We assumed, therefore, that female with high income or that work for tech companies would be more prone to attend to the gala. For this purpose, we collected demographics data from the Census and identified the areas in NY with more concentration of Tech companies.
 
