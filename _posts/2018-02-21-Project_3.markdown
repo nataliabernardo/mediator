@@ -11,7 +11,7 @@ image2: /assets/article_images/project_3/classroom.png-
 
 <IMG SRC="https://media.giphy.com/media/xT9DPFPfULYJHHrqN2/giphy.gif">
 
-As an Economist, I have seen many papers analyzing students' performance based on exclusively economic and social indicators, but it was the first example that I've seen that only included individual data regarding their lifestyle such as alcohol consumption and relationship status. The data was obtained through a survey answered by approximately 700 high school students in Portugal, and can be found on the [UCI Repository](http://archive.ics.uci.edu/ml/datasets/Student+Performance). All this data holds valuable information, such as trends and patterns, which can be used to improve decision making and optimize success.
+As an Economist, I have seen many papers analyzing students' performance based on exclusively economic and social indicators, but it was the first example that I analyzed that included data regarding their lifestyle such as alcohol consumption and relationship status. The data was obtained through schools reports of approximately 700 high school students in Portugal, and can be found on the [UCI Repository](http://archive.ics.uci.edu/ml/datasets/Student+Performance). All this data holds valuable information, such as trends and patterns, which can be used to improve decision making and optimize success.
 
 The goal of this project is to create an easy to use tool for decision-makers to simulate if a student would pass or fail based on the student's characteristics and provide advanced help for them before the exam.
 
