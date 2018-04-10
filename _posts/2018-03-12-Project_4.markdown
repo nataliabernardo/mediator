@@ -1,3 +1,7 @@
-## Topic Modeling and Sentiment Analysis on Aesthetic Procedure Reviews
+## Predicting what user reviews are about with LDA and Sentiment Analysis
+
+Topic Modeling and Sentiment Analysis on Aesthetic Procedure Reviews
 
 Predicting hidden topic ratings based on users sentiments
+
+"It is becoming increasingly difficult to handle the large number of opinions posted on review platforms and at the same time offer this information in a useful way to each user so he or she can make a decision fast whether to buy the product or not. Topic-based aggregations and short review summaries are used to group and condense what other users think about the product in order to personalize the content served to a new user and shorten the time he needs to make a buying decision."
