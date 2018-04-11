@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Predicting Students' Performance"
+title:  "Random Forest to predict Students' Performance"
 date:   2018-02-21 14:34:25
 categories: data science supervised learning
 image: /assets/article_images/project_3/classroom.png
 image2: /assets/article_images/project_3/classroom.png-
 ---
 
-## Project 3 - Can we predict a student's performance based on their lifestyle?
+## Can we predict a student's performance based on their lifestyle?
 
 <IMG SRC="https://media.giphy.com/media/xT9DPFPfULYJHHrqN2/giphy.gif">
 
