@@ -1,10 +1,20 @@
-## Predicting what user reviews are about with Topic Modeling and Sentiment Analysis
+---
+layout: post
+title:  "Natural Language Processing on Aesthetic Procedure Reviews"
+date:   2018-03-12 14:34:25
+categories: data science pandas NLP
+tags: Metis Data Science
+image: /assets/article_images/project_1/turnstile.jpg
+image2: /assets/article_images/project_1/turnstile.jpg
+---
 
-Topic Modeling and Sentiment Analysis on Aesthetic Procedure Reviews
-Predicting hidden topic ratings based on users sentiments
-
-"It is becoming increasingly difficult to handle the large number of opinions posted on review platforms and at the same time offer this information in a useful way to each user so he or she can make a decision fast whether to buy the product or not. Topic-based aggregations and short review summaries are used to group and condense what other users think about the product in order to personalize the content served to a new user and shorten the time he needs to make a buying decision."
+# Predicting what user reviews are about with Topic Modeling and Sentiment Analysis
 
 A few years ago, I was searching for a treatment for skin and found a website called [Realself](https://www.realself.com). It's the best source of information for those who are planning to do some aesthetic procedure, where thousands of users share their experience on treatments, like writing a diary. After reading many reviews, I found four different treatments that offered similar outcomes based in the before and after pictures and chose the one that required less sessions to achieve the desired result. It was the most expensive and with longer downtime, however, provided faster results.
 
-I thought it would be interesting to identify the main topics of each treatment, in other words, what customers talk more about in those long posts. For example 
+I thought it would be interesting to identify the main topics of each treatment, in other words, what customers talk more about in those long posts. There are two different types of reviews: (1) for doctors and (2) for procedures. If you 
+
+(paste image)
+
+
+"It is becoming increasingly difficult to handle the large number of opinions posted on review platforms and at the same time offer this information in a useful way to each user so he or she can make a decision fast whether to buy the product or not. Topic-based aggregations and short review summaries are used to group and condense what other users think about the product in order to personalize the content served to a new user and shorten the time he needs to make a buying decision."
