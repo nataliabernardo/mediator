@@ -7,7 +7,7 @@ image: /assets/article_images/project_2/cheesecake.jpg
 image2: /assets/article_images/project_2/cheesecake.jpg
 ---
 
-## Project 2 - Predicting the Success of a Recipe
+## Is it possible to predict the success of a recipe based on its ingredients?
 
 Is it possible to predict the success of a recipe based on its ingredients independently? The answer is no. Heston Blumenthal, the father of food pairing, needs at least 2 combined ingredients to make a special meal, however, it was possible to get good insights from the analysis.
 
