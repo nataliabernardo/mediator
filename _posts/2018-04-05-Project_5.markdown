@@ -1,2 +1,12 @@
-## Deep Learning for Accessibilibty
+---
+layout: post
+title:  "Deep Learning for Accessibilibty
+date:   2018-04-05 14:34:25
+categories: data science tensorflow
+tags: Metis Data Science
+image: /assets/article_images/project_1/turnstile.jpg
+image2: /assets/article_images/project_1/turnstile.jpg
+---
+
+# Using Convolutional Neural Network to identify curb ramps on images
 
