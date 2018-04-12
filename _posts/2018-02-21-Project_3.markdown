@@ -24,3 +24,7 @@ As despicted in the figure below, 85% of students pass, it means, had grades equ
 For this project, since the objetive is to identify students that might fail the school, I'm focusing on increasing the recall for the class "fail".
 
 ### Models
+
+### Demo
+
+### Conclusions & Next Steps
