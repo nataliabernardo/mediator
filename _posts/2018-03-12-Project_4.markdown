@@ -27,7 +27,8 @@ I used extracted all posts of all reviews from 3 different procedures:
 
 ## LDA
 
-LDA assumes that a corpus of text documents cover a collection of topics. Each topic is defined as a multinomial distribution over a word dictionary with words drawn from a [Dirichlet distribution] (https://en.wikipedia.org/wiki/Dirichlet_distribution)
+I experiemented with different topic modelling techniques: LDA, non-negative matrix factorization (NMF) and k-means, and LDA provided better results. It assumes that a corpus of text documents cover a collection of topics. Each topic is defined as a multinomial distribution over a word dictionary with words drawn from a [Dirichlet distribution] (https://en.wikipedia.org/wiki/Dirichlet_distribution).
+
 ## Sentiment Analysis
 
 ## Demo
