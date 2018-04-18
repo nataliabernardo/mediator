@@ -16,9 +16,8 @@ There are two different types of reviews in Realself: (1) for doctors and (2) fo
 
 (paste image)
 
-So I thought it would be interesting to 
+So I thought it would be interesting to uncover what customers talk more about in those long posts. For this task, I used a topic modelling method called [Latent Dirichlet Allocation (LDA)](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation), a Natural Language Processing (NLP) tool that can automatically identify topics from a corpus.
 
-identify the main topics of each procedure, in other words, what customers talk more about in those long posts. 
 
 
 "It is becoming increasingly difficult to handle the large number of opinions posted on review platforms and at the same time offer this information in a useful way to each user so he or she can make a decision fast whether to buy the product or not. Topic-based aggregations and short review summaries are used to group and condense what other users think about the product in order to personalize the content served to a new user and shorten the time he needs to make a buying decision."
