@@ -38,6 +38,8 @@ I experiemented with different topic modelling techniques: LDA, non-negative mat
 
 ## Sentiment Analysis
 
+One possible approach to define the rating for the topic is the percent of posts that gave a positive comment in each treatment, similar to Rotten Tomatoes scores. I analyzed the sentiments of their reviews.
+
 ## Demo
 
 ## Conclusions & Future work
