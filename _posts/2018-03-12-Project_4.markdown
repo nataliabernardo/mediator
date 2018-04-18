@@ -22,7 +22,7 @@ There are two different types of reviews in Realself: (1) for doctors and (2) fo
 
 So I thought it would be interesting to uncover what customers talk more about in those long posts. For this task, I used a topic modelling method called [Latent Dirichlet Allocation (LDA)](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation), a Natural Language Processing (NLP) tool that can automatically identify topics from a corpus. A “topic” consists of a group of words that frequently occur together. 
 
-The next step was to predict how the users would rate their experience on those topics, in other words, I simulated the ratings for the potential subcategories of the procedures, such as for the doctors' reviews.
+The next step was to predict how the users would rate their experience on those topics, in other words, I simulated the ratings for the potential subcategories of the procedures, such as for the doctors' reviews, based on user's sentiments. I used [Textblob](textblob.readthedocs.io/en/dev/) Sentiment for classifying phrases of the posts as "negative", "neutral" or "positive".
 
 ## Data
 
@@ -38,7 +38,7 @@ I experiemented with different topic modelling techniques: LDA, non-negative mat
 
 ## Sentiment Analysis
 
-One possible approach to define the rating for the topic is the percent of posts that gave a positive comment in each treatment, similar to Rotten Tomatoes scores. I analyzed the sentiments of their reviews.
+One possible approach to define the rating for the topic is the percent of posts that gave a positive comment in each treatment, similar to Rotten Tomatoes scores. For this task I tried Vader and TextBlob
 
 ## Demo
 
