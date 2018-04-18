@@ -17,11 +17,12 @@ After reading many reviews, I found four different treatments that offered simil
 There are two different types of reviews in Realself: (1) for doctors and (2) for procedures. Pacients review doctors for 9 different categories and procedures for 1 category ("worth it", "not worth it" or "not sure"), as you can see in the image below.
 
 
- <p align="center"> <img src="/assets/article_images/project_4/Screen Shot 2018-04-17 at 10.12.41 PM.png" width="75%"></p>
+ <p align="center"> <img src="/assets/article_images/project_4/Screen Shot 2018-04-17 at 10.12.41 PM.png" width="85%"></p>
 
 
 So I thought it would be interesting to uncover what customers talk more about in those long posts. For this task, I used a topic modelling method called [Latent Dirichlet Allocation (LDA)](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation), a Natural Language Processing (NLP) tool that can automatically identify topics from a corpus. A “topic” consists of a group of words that frequently occur together. 
 
+The next step was to predict how the users would rate their experience on those topics, in other words, I simulated the ratings for the categories, such as for the doctors' reviews.
 
 ## Data
 
@@ -31,11 +32,11 @@ I extracted all posts (53,547 posts from 17,270 unique users) of all reviews fro
 * Rhinoplasty
 * Coolsculpting
 
-Since they are completely different between them..
+I intentionally chose completely different procedures ..
 
 ## LDA
 
-I experiemented with different topic modelling techniques: LDA, non-negative matrix factorization (NMF) and k-means, and LDA provided better results. It assumes that a corpus of text documents cover a collection of topics. Each topic is defined as a multinomial distribution over a word dictionary with words drawn from a [Dirichlet distribution] (https://en.wikipedia.org/wiki/Dirichlet_distribution).
+I experiemented with different topic modelling techniques: LDA, non-negative matrix factorization (NMF) and k-means, and LDA provided better results. It assumes that a corpus of text documents cover a collection of topics. Each topic is defined as a multinomial distribution over a word dictionary with words drawn from a [Dirichlet distribution](https://en.wikipedia.org/wiki/Dirichlet_distribution).
 
 ## Sentiment Analysis
 
