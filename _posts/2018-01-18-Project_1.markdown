@@ -8,7 +8,7 @@ image: /assets/article_images/project_1/turnstile.jpg
 image2: /assets/article_images/project_1/turnstile.jpg
 ---
 
-# Project 1 - Analyzing NYC Subway and Demographic 
+# Which MTA stations are optimal for street teams?
 
 In a fictionary scenario, a non-profit organization WomenTechWomenYes (WTWY) solicited our engagement to use MTA subway data to help them optimize the placement of their street teams, such that they can gather the most signatures, ideally from those who will attend the gala and contribute to our cause. 
 
