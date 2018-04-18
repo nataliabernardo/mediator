@@ -4,8 +4,8 @@ title:  "Natural Language Processing on Aesthetic Procedure Reviews"
 date:   2018-03-12 14:34:25
 categories: data science pandas NLP
 tags: Metis Data Science
-image: /assets/article_images/project_4/wellness.jpg
-image2: /assets/article_images/project_4/wellness.jpg
+image: /assets/article_images/project_4/IntroToLDA.jpg
+image2: /assets/article_images/project_4/IntroToLDA.jpg
 ---
 
 # Predicting what user reviews are about with Topic Modeling and Sentiment Analysis
