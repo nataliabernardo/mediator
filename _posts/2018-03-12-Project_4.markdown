@@ -10,7 +10,9 @@ image2: /assets/article_images/project_1/turnstile.jpg
 
 # Predicting what user reviews are about with Topic Modeling and Sentiment Analysis
 
-A few years ago, I was searching for a treatment for skin and found a website called [Realself](https://www.realself.com). It's the best source of information for those who are planning to do some aesthetic procedure, where thousands of users share their experience on treatments, like writing a diary. After reading many reviews, I found four different treatments that offered similar outcomes based in the before and after pictures and chose the one that required less sessions to achieve the desired result. It was the most expensive and with longer downtime, however, provided faster results.
+A few years ago, I was searching for a treatment for skin and found a website called [Realself](https://www.realself.com). It's the best source of information for those who are planning to do some aesthetic procedure, where thousands of users share their experience on treatments, like writing a diary. 
+
+After reading many reviews, I found four different treatments that offered similar outcomes based in the before and after pictures and chose the one that required less sessions to achieve the desired result. It was the most expensive and with longer downtime, however, provided faster results.
 
 There are two different types of reviews in Realself: (1) for doctors and (2) for procedures. Pacients review doctors for 9 different categories and procedures for 1 category ("worth it", "not worth it" or "not sure"), as you can see in the image below.
 
