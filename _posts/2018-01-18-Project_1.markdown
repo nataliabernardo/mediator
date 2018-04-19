@@ -14,19 +14,19 @@ In a fictionary scenario, a non-profit organization WomenTechWomenYes (WTWY) sol
 
 In this regard, our group assumed that the higher traffic of pedestrians would mean more signinature, but this analysis would be more precise if leveraged by the proportion of individuals more interested in the cause of WTWY. We assumed, therefore, that female with high income or that work for tech companies would be more prone to attend to the gala. For this purpose, we collected demographics data from the Census and identified the areas in NY with more concentration of Tech companies.
 
-## Assumptions
+### Assumptions
 1. Station traffic
 2. Women population
 3. Income level
 4. Close to Tech Companies
 
-## The Data
+### The Data
 
 Besides the [NYC MTA data](http://web.mta.info/developers/turnstile.html) - which was a good source for extracting the volume of foot passers nearby the subway stations -, we  collected the [NYC Census Data](https://www.kaggle.com/muonneutrino/new-york-city-census-data/data) for demographics by Census Block.
 
-## Data Exploratory Analysis
+### Data Exploratory Analysis
 
-### Data Cleaning
+#### Data Cleaning
 
 First, we created a pandas data frame with MTA Subway turnstile data, that gives you counts of entries and exits for each and every turnstile in NYC. It's worthy mentioning, that the turnstile data was a combination of "C/A", "UNIT", "SCP" and "Station".
 
@@ -55,7 +55,7 @@ The Census Block Conversions API can be found on the Federal Communications Comm
 #### 3. Merge MTA Subway with Census Data
 The last step was to merge all the data by Census Tract. And there we have a dataframe with all the information we need :)
 
-## Ranking the Stations
+### Ranking the Stations
 
 <p align="center"> <img src="/assets/article_images/project_1/score.png" width="55%"></p>
 
@@ -80,9 +80,7 @@ Finaly, based on the resulted rank, we suggested to our customer to focus the ef
 <p align="center"> <img src="/assets/article_images/project_1/top_stations.png" width="60%"></p>
 <p align="center"> <img src="https://sealoving.github.io/Liang_Metis/Project_1/station_map.png" width="80%"></p>
 
-
-
-## Final Thoughts
+### Final Thoughts
 
 Project 1 was a great opportunity for us to learn [Pandas](https://en.wikipedia.org/wiki/Pandas_(software)) and exploratory analysis. We also learning the challenges of data cleaning.
 
