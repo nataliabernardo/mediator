@@ -26,7 +26,7 @@ The next step was to predict how the users would rate their experience on those 
 
 <p align="center"> <img src="/assets/article_images/project_4/project4.png" width="40%"></p>
 
-### Steps
+### Project Pipeline
 
 #### 1. Data Collection
 
