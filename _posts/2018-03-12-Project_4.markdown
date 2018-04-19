@@ -40,7 +40,9 @@ I experiemented with different topic modelling techniques: LDA, non-negative mat
 
 ### 3. Sentiment Analysis to assign ratings for topics
 
-One possible approach to define the rating for the topic is the percent positive comments in each treatment, similar to Rotten Tomatoes scores. For this task I tried Vader and TextBlob, and the later provided more 
+One possible approach to define the rating for the topic is the percent positive comments in each treatment, similar to Rotten Tomatoes scores. For this task I tried Vader and TextBlob, and the later provided better results: "not worth it" reviews had more negative comments and "worth it" reviews had more positive comments.
+
+<p align="center"> <img src="/assets/article_images/project_4/rating.png" width="100%"></p>
 
 ### 4. Demo
 
