@@ -24,7 +24,7 @@ So I thought it would be interesting to uncover what customers talk more about i
 
 The next step was to predict how the users would rate their experience on those topics, in other words, I simulated the ratings for the potential subcategories of the procedures, such as for the doctors' reviews, based on user's sentiments. I used [Textblob](textblob.readthedocs.io/en/dev/) Sentiment for classifying each sentence of the posts as "negative" or "positive".
 
-### Data
+### 1. Data Collection
 
 I extracted all posts (53,547 posts from 17,270 unique users) of all reviews from 3 different procedures:
 
@@ -32,14 +32,14 @@ I extracted all posts (53,547 posts from 17,270 unique users) of all reviews fro
 * Rhinoplasty
 * Coolsculpting
 
-### LDA
+### 2. LDA to identify "hidden" topics
 
 I experiemented with different topic modelling techniques: LDA, non-negative matrix factorization (NMF) and k-means, and LDA provided better results. It assumes that a corpus of text documents cover a collection of topics. Each topic is defined as a multinomial distribution over a word dictionary with words drawn from a [Dirichlet distribution](https://en.wikipedia.org/wiki/Dirichlet_distribution).
 
-### Sentiment Analysis
+### 3. Sentiment Analysis to assign ratings for topics
 
 One possible approach to define the rating for the topic is the percent of posts that gave a positive comment in each treatment, similar to Rotten Tomatoes scores. For this task I tried Vader and TextBlob
 
-### Demo
+### 4. Demo
 
 ### Conclusions & Future work
