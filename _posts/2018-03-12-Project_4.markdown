@@ -10,7 +10,7 @@ image2: /assets/article_images/project_4/IntroToLDA.jpg
 
 # Predicting what user reviews are about with Topic Modeling and Sentiment Analysis
 
-A few years ago, I was searching for a treatment for skin and found a website called [Realself](https://www.realself.com). It's the best source of information for those who are planning to do some aesthetic procedure, where thousands of users share their experience on treatments, like writing a diary. 
+A few years ago, I was searching for a skin treatment and found this website called [Realself](https://www.realself.com). It's the best source of information for those who are planning to do some aesthetic procedure, where thousands of users share their experience on treatments, like writing a diary. 
 
 After reading many reviews, I found four different treatments that offered similar outcomes based in the before and after pictures and chose the one that required less sessions to achieve the desired result. It was the most expensive and with longer downtime, however, provided faster results.
 
@@ -32,9 +32,9 @@ I extracted all posts (53,547 posts from 17,270 unique users) of all reviews fro
 
 ### 2. LDA to identify "hidden" topics in reviews
 
-I experiemented with different topic modelling techniques: LDA, non-negative matrix factorization (NMF) and k-means, and LDA provided better results. It assumes that a corpus of text documents cover a collection of topics. Each topic is defined as a multinomial distribution over a word dictionary with words drawn from a [Dirichlet distribution](https://en.wikipedia.org/wiki/Dirichlet_distribution).
+I experiemented with different topic modelling techniques: LDA, non-negative matrix factorization (NMF) and k-means, and LDA's topics were easier to interpret. In this model, each topic from a corpus of text documents is defined as a multinomial distribution over a word dictionary with words drawn from a [Dirichlet distribution](https://en.wikipedia.org/wiki/Dirichlet_distribution). 
 
-I visually identified the topics and, as expected, they were peculiar for each treatment:
+However, it's not always an easy task. It requires human judgments to assign to the topic a category by looking at the words in it. After carefully examining the results, I visually identified the topics and, as expected, they were peculiar for each treatment:
 
 * Coolsculpting
 1. Surgery/pos op
@@ -58,8 +58,7 @@ I visually identified the topics and, as expected, they were peculiar for each t
 3. Side-effects
 4. Results
 
-
-
+<p align="center"> <img src="/assets/article_images/project_4/topics.png" width="100%"></p>
 
 
 ### 3. Sentiment Analysis to assign ratings for topics
@@ -71,3 +70,5 @@ One possible approach to define the rating for the topic is the percent positive
 ### 4. Demo
 
 ### Conclusions & Future work
+
+Probabilistic topic models have become popular tools for the unsupervised analysis of large document collections. These models posit a set of latent topics, multinomial distributions over words, and assume that each document can be described as a mixture of these topics. 
