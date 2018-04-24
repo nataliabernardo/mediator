@@ -4,9 +4,6 @@ title: About
 permalink: /about/
 ---
 
-
-### About me
-
 Hello! Welcome to my blog!
 
 I am a Seattle-based data scientist at Metis.
@@ -17,7 +14,7 @@ In this blog you will find my projects. As you can see, my knowledge includes st
 
 If you have questions and/or thoughts on anything you find here, feel free to contact me. I love meeting new people and sharing ideas, if you are in Seattle area, let's meet for a coffee.
 
-### Education
+#### Education
 
 Data Science Certificate - Metis (2018)
 
@@ -25,6 +22,6 @@ MS Economics - Barcelona Gradute School of Economics (2015)
 
 BS Electrical Engineering - Federal University of Rio de Janeiro (2012)
 
-### Contact me
+#### Contact me
 
 [bernardo.natalia@outlook.com](mailto:bernardo.natalia@outlook.com)
