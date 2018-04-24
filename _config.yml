@@ -20,7 +20,7 @@ cover: "/assets/images/IMG_7958.jpg"
 
 name: 'Natalia Bernardo'
 author: 'Natalia Bernardo'
-author_image: "/assets/images/author.jpg"
+#author_image: "/assets/images/author.jpg"
 
 paginate:	5
 
