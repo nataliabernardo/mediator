@@ -58,7 +58,11 @@ However, it's not always an easy task. It requires human judgments to assign to 
 3. Side-effects
 4. Results
 
+I realized that despite having different themes, the reviews could be divided into 3 big topics: Procedure, Recovery and Results.
+
 <p align="center"> <img src="/assets/article_images/project_4/topics.png" width="100%"></p>
+
+The next step was to assign ratings for each one of those aggregated topics.
 
 
 ### 3. Sentiment Analysis to assign ratings for topics
